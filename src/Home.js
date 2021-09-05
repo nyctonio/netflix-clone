@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer'
 
 export default function Home() {
     return (
@@ -74,25 +75,35 @@ export default function Home() {
           </div>
 
           <hr />
-          
+        
           <div class="min-h-screen bg-black space-y-10">
-            <p class="p-5 text-white font-bold text-5xl flex justify-center">Frequently Asked Questions</p>
+            <br />
+            <p class="p-5 text-white text-center font-bold text-3xl md:text-5xl flex justify-center">Frequently Asked Questions</p>
             <div class="space-y-5 flex flex-col justify-center items-center">
-              <div class="p-5 bg-[#303030] w-3/4">
-                <p class="text-3xl text-white">What is Netflix ?</p>
+              <div class="p-1 md:p-5 bg-[#303030] w-3/4">
+                <p class="text-xl md:text-3xl text-white">What is Netflix ?</p>
               </div>
-              <div class="p-5 bg-[#303030] w-3/4">
-                <p class="text-3xl text-white">How much does Netflix cost ?</p>
+              <div class="p-1 md:p-5 bg-[#303030] w-3/4">
+                <p class="text-xl md:text-3xl text-white">How much does Netflix cost ?</p>
               </div>
-              <div class="p-5 bg-[#303030] w-3/4">
-                <p class="text-3xl text-white">Where can I watch ?</p>
+              <div class="p-1 md:p-5 bg-[#303030] w-3/4">
+                <p class="text-xl md:text-3xl text-white">Where can I watch ?</p>
               </div>
-              <div class="p-5 bg-[#303030] w-3/4">
-                <p class="text-3xl text-white">Is Netflix good for kids ?</p>
+              <div class="p-1 md:p-5 bg-[#303030] w-3/4">
+                <p class="text-xl md:text-3xl text-white">Is Netflix good for kids ?</p>
               </div>
+            </div>
+            <p class="text-xl md:text-2xl text-center text-white">Ready to watch? Enter your email to create or restart your membership.</p>
+            <div class="flex flex-col md:flex-row flex-wrap md:flex-nowrap items-center justify-center">
+                <input type="text" placeholder="Email address" class="p-2 md:p-4 focus:outline-none focus:ring-1 focus:ring-blue-300 w-3/4" />
+                <button class="p-3 my-3 md:my-0 md:p-4 text-sm md:text-lg font-semibold bg-red-600 hover:bg-red-700 text-white">Get Started </button>
             </div>
           </div>
           <hr />
+
+          <div class="bg-black space-y-10">
+              <Footer/>
+          </div>
         </div>
         </div>
     )
