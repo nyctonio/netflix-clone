@@ -34,7 +34,7 @@ export default function Nav() {
 
       <div>
         <img
-          className="cursor-pointer"
+          className="mr-10 cursor-pointer"
           src="https://s2.svgbox.net/illlustrations.svg?ic=pumpkin&color=000000"
           width="32"
           height="32"

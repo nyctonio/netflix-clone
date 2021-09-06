@@ -40,13 +40,13 @@ export default function Banner() {
           <button className="banner__button">My List</button>
         </div>
 
-        <h1 className="banner__description">
+        <h1 className="max-w-xs md:max-w-md banner__description">
           {movie.overview
             ? truncate(movie?.overview, 150)
             : "Movie description ..."}
         </h1>
       </div>
-      <div className="banner--fadebottom"></div>
+      <div className=" banner--fadebottom"></div>
     </div>
   );
 }
