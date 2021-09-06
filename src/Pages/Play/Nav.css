@@ -1,0 +1,20 @@
+/* class="absolute top-0 left-0 mt-5 ml-5" */
+
+.main__nav {
+  position: fixed;
+  padding: 20px;
+  top: 0;
+  height: 64px;
+  z-index: 2;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.nav_black {
+  background-color: #111;
+}
